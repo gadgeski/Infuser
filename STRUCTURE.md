@@ -9,7 +9,7 @@ Injector/
 │       ├── androidTest
 │       │   └── java
 │       │       └── com
-│       │           └── example
+│       │           └── gadgeski
 │       │               └── injector
 │       │                   └── ExampleInstrumentedTest.kt
 │       ├── main
@@ -17,7 +17,7 @@ Injector/
 │       │   ├── ic_launcher-playstore.png
 │       │   ├── java
 │       │   │   └── com
-│       │   │       └── example
+│       │   │       └── gadgeski
 │       │   │           └── injector
 │       │   │               ├── InjectorApplication.kt
 │       │   │               ├── MainActivity.kt
@@ -74,7 +74,7 @@ Injector/
 │       └── test
 │           └── java
 │               └── com
-│                   └── example
+│                   └── gadgeski
 │                       └── injector
 │                           └── ExampleUnitTest.kt
 ├── build.gradle.kts

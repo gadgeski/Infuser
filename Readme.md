@@ -69,7 +69,7 @@ sequenceDiagram
     participant Tile as QuickSettingsTile
     participant Proxy as ClipboardProxyActivity
     participant Logic as TextProcessor
-    participant Core as BugMemo App
+    participant Core as BugCodex App
 
     User->>Tile: Tap "Inject" Tile
     Tile->>Proxy: Start Activity (Transparent)

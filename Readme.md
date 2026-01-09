@@ -1,4 +1,4 @@
-# 💉 Injector: The Quick Capture Satellite
+# 💉 Infuser: The Quick Capture Satellite
 
 > **"Infuser Knowledge into the Core."**
 

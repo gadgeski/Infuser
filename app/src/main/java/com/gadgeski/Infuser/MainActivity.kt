@@ -1,4 +1,4 @@
-package com.gadgeski.injector
+package com.gadgeski.Infuser
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.gadgeski.injector.ui.theme.InjectorTheme
+import com.gadgeski.Infuser.ui.theme.InjectorTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name=".InjectorApplication"
+        android:name=".InfuserApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="Injector"
+        android:label="Infuser"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Injector"
+        android:theme="@style/Theme.Infuser"
         tools:ignore="DataExtractionRules">
 
         <!-- ★ Fix: tools:ignore="DataExtractionRules" を追加し、
@@ -32,9 +32,9 @@
 
         <!-- クイック設定パネル用サービス -->
         <service
-            android:name=".service.InjectorTileService"
-            android:icon="@drawable/ic_injector_tile"
-            android:label="Inject to BugMemo"
+            android:name=".service.InfuserTileService"
+            android:icon="@drawable/ic_infuser_tile"
+            android:label="Infuse to BugCodex"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
             <intent-filter>
@@ -46,7 +46,7 @@
 
     <!-- BugMemo への可視性設定 -->
     <queries>
-        <package android:name="com.gadgeski.bugmemo" />
+        <package android:name="com.gadgeski.bugcodex" />
     </queries>
 
 </manifest>

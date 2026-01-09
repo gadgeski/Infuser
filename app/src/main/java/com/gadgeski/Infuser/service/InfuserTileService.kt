@@ -1,12 +1,12 @@
-package com.gadgeski.injector.service
+package com.gadgeski.Infuser.service
 
 import android.app.PendingIntent
 import android.content.Intent
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
-import com.gadgeski.injector.ui.proxy.ClipboardProxyActivity
+import com.gadgeski.Infuser.ui.proxy.ClipboardProxyActivity
 
-class InjectorTileService : TileService() {
+class InfuserTileService : TileService() {
 
     override fun onStartListening() {
         super.onStartListening()

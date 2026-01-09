@@ -1,12 +1,12 @@
-package com.gadgeski.injector.ui.proxy
+package com.gadgeski.Infuser.ui.proxy
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import com.gadgeski.injector.core.clipboard.ClipboardHelper
-import com.gadgeski.injector.domain.ProcessedText
-import com.gadgeski.injector.domain.TextProcessor
+import com.gadgeski.Infuser.core.clipboard.ClipboardHelper
+import com.gadgeski.Infuser.domain.ProcessedText
+import com.gadgeski.Infuser.domain.TextProcessor
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

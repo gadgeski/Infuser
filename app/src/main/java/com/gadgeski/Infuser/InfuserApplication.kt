@@ -1,7 +1,7 @@
-package com.gadgeski.injector
+package com.gadgeski.Infuser
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class InjectorApplication : Application()
+class InfuserApplication : Application()

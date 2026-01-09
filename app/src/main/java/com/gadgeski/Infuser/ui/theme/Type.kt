@@ -1,4 +1,4 @@
-package com.gadgeski.injector.ui.theme
+package com.gadgeski.Infuser.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

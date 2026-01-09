@@ -1,4 +1,4 @@
-package com.gadgeski.injector.domain
+package com.gadgeski.Infuser.domain
 
 import javax.inject.Inject
 

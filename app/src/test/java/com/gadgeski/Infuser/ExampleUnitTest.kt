@@ -1,4 +1,4 @@
-package com.gadgeski.injector
+package com.gadgeski.Infuser
 
 import org.junit.Test
 

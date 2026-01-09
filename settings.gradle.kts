@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Injector"
+rootProject.name = "Infuser"
 include(":app")

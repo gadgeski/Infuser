@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "com.gadgeski.injector"
+    namespace = "com.gadgeski.Infuser"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.gadgeski.injector"
+        applicationId = "com.gadgeski.Infuser"
         minSdk = 34
         targetSdk = 36
         versionCode = 1

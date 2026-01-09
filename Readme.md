@@ -8,7 +8,7 @@
 
 ## 🚀 概要 (Overview)
 
-Infuser は、ブラウジングや開発作業中に遭遇した重要なテキスト（エラーログ、コードスニペット、知見）を、アプリを開くことなくワンタップで BugMemo へ転送するためのツールです。
+Infuser は、ブラウジングや開発作業中に遭遇した重要なテキスト（エラーログ、コードスニペット、知見）を、アプリを開くことなくワンタップで BugCodex へ転送するためのツールです。
 
 「Android 10 以降のバックグラウンドからのクリップボードアクセス制限」という技術的課題を、**透明な Activity (Transparent Proxy Activity)** というアプローチで解決し、セキュリティと利便性を両立しています。
 
@@ -105,7 +105,7 @@ sequenceDiagram
 
 ## 📂 プロジェクト構成
 
-- **service/**: `InjectorTileService` (バックグラウンドエントリーポイント)
+- **service/**: `InfuserTileService` (バックグラウンドエントリーポイント)
 - **ui/proxy/**: `ClipboardProxyActivity` (透明な中継役)
 - **domain/**: `TextProcessor` (テキスト加工ロジック)
 - **core/**: `ClipboardHelper` (OS API ラッパー)

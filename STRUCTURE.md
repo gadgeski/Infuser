@@ -1,5 +1,5 @@
 ```
-Injector/
+Infuser/
 ├── Readme.md
 ├── STRUCTURE.md
 ├── app
@@ -10,7 +10,7 @@ Injector/
 │       │   └── java
 │       │       └── com
 │       │           └── gadgeski
-│       │               └── injector
+│       │               └── Infuser
 │       │                   └── ExampleInstrumentedTest.kt
 │       ├── main
 │       │   ├── AndroidManifest.xml
@@ -18,8 +18,8 @@ Injector/
 │       │   ├── java
 │       │   │   └── com
 │       │   │       └── gadgeski
-│       │   │           └── injector
-│       │   │               ├── InjectorApplication.kt
+│       │   │           └── Infuser
+│       │   │               ├── InfuserApplication.kt
 │       │   │               ├── MainActivity.kt
 │       │   │               ├── core
 │       │   │               │   └── clipboard
@@ -27,7 +27,7 @@ Injector/
 │       │   │               ├── domain
 │       │   │               │   └── TextProcessor.kt
 │       │   │               ├── service
-│       │   │               │   └── InjectorTileService.kt
+│       │   │               │   └── InfuserTileService.kt
 │       │   │               └── ui
 │       │   │                   ├── proxy
 │       │   │                   │   └── ClipboardProxyActivity.kt
@@ -37,10 +37,9 @@ Injector/
 │       │   │                       └── Type.kt
 │       │   └── res
 │       │       ├── drawable
-│       │       │   ├── ic_injector_tile.xml
+│       │       │   ├── ic_infuser_tile.xml
 │       │       │   ├── ic_launcher_background.xml
 │       │       │   └── ic_launcher_foreground.xml
-│       │       ├── mipmap-anydpi
 │       │       ├── mipmap-anydpi-v26
 │       │       │   ├── ic_launcher.xml
 │       │       │   └── ic_launcher_round.xml
@@ -75,7 +74,7 @@ Injector/
 │           └── java
 │               └── com
 │                   └── gadgeski
-│                       └── injector
+│                       └── Infuser
 │                           └── ExampleUnitTest.kt
 ├── build.gradle.kts
 ├── gradle
@@ -89,5 +88,5 @@ Injector/
 ├── local.properties
 └── settings.gradle.kts
 
-38 directories, 51 files
+37 directories, 51 files
 ```

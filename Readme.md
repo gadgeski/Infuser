@@ -1,14 +1,14 @@
 # 💉 Injector: The Quick Capture Satellite
 
-> **"Inject Knowledge into the Core."**
+> **"Infuser Knowledge into the Core."**
 
-メインアプリ **BugMemo** のエコシステムを拡張する、クリップボード転送専用のサテライト・ユーティリティ。
+メインアプリ **BugCodex** のエコシステムを拡張する、クリップボード転送専用のサテライト・ユーティリティ。
 
-思考を止めずに情報をデータベースへ「注入 (Inject)」するための最速ワークフローを提供します。
+思考を止めずに情報をデータベースへ「浸透」させるための最速ワークフローを提供します。
 
 ## 🚀 概要 (Overview)
 
-Injector は、ブラウジングや開発作業中に遭遇した重要なテキスト（エラーログ、コードスニペット、知見）を、アプリを開くことなくワンタップで BugMemo へ転送するためのツールです。
+Infuser は、ブラウジングや開発作業中に遭遇した重要なテキスト（エラーログ、コードスニペット、知見）を、アプリを開くことなくワンタップで BugMemo へ転送するためのツールです。
 
 「Android 10 以降のバックグラウンドからのクリップボードアクセス制限」という技術的課題を、**透明な Activity (Transparent Proxy Activity)** というアプローチで解決し、セキュリティと利便性を両立しています。
 
@@ -47,7 +47,7 @@ Injector は、ブラウジングや開発作業中に遭遇した重要なテ�
 
 - **TileService**: クイック設定パネルのライフサイクル管理
 - **ClipboardManager**: システムクリップボードへのセキュアなアクセス
-- **Intent (Deep Link)**: `com.example.bugmemo`パッケージへの明示的なデータ送信
+- **Intent (Deep Link)**: `com.gadgeski.bugcodex`パッケージへの明示的なデータ送信
 
 ### Architecture
 
@@ -89,19 +89,19 @@ sequenceDiagram
 
 ビルドして実機にインストールします。
 
-> **注意**: 転送先の **BugMemo** アプリがインストールされている必要があります。
+> **注意**: 転送先の **BugCodex** アプリがインストールされている必要があります。
 
 ### 2. タイルの配置
 
 1. ステータスバーを下にスワイプしてクイック設定パネルを開く
 2. 「編集（鉛筆アイコン）」をタップ
-3. 「Inject to BugMemo」タイルを見つけ、使いやすい位置にドラッグ＆ドロップ
+3. 「Inject to BugCodex」タイルを見つけ、使いやすい位置にドラッグ＆ドロップ
 
 ### 3. 実行 (Injection)
 
 1. 任意のアプリでテキストをコピー
 2. クイック設定パネルのタイルをタップ
-3. **Done!** 自動的に BugMemo のエディタが立ち上がります
+3. **Done!** 自動的に BugCodex のエディタが立ち上がります
 
 ## 📂 プロジェクト構成
 
@@ -113,4 +113,4 @@ sequenceDiagram
 
 ---
 
-_Injector - The Quick Capture Satellite for BugMemo Ecosystem_
+_Infuser - The Quick Capture Satellite for BugCodex Ecosystem_
